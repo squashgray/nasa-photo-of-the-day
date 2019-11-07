@@ -20,7 +20,7 @@ function Apod() {
         <div className='pics'>
           
               <h2>Date: {pic.date} </h2> 
-              <h3>Title: {pic.title} </h3> 
+              <h3>{pic.title} </h3> 
               <img className="space_pic" alt="random space pic" src={pic.url}></img> 
               <p>{pic.explanation}</p> 
         
