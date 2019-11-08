@@ -3,16 +3,15 @@ import "./App.css";
 import Header from "./components/Header";
 import Apod from "./components/Apod";
 
+const divStyle = {
+  backgroundColor: "black"
+};
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={divStyle}>
       <Header />
       <Apod />
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun!
-      </p>
     </div>
   );
 }
