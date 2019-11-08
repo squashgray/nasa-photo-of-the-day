@@ -13,7 +13,14 @@ function Header() {
           height: "200px"
         }}
       >
-        <Typography variant="h3" align="center" style={{ margin: "60px" }}>
+        <Typography
+          variant="h2"
+          align="center"
+          style={{
+            margin: "60px",
+            fontFamily: "Impact, fantasy"
+          }}
+        >
           Astronomy Picture of the Day!
         </Typography>
       </AppBar>

@@ -12,12 +12,13 @@ const useStyles = makeStyles({
     minWidth: 500
   },
   title: {
-    fontSize: 30,
+    fontSize: 40,
     fontWeight: "bold",
     borderBottom: "1px solid black",
     marginBottom: 20,
     marginTop: 30,
-    paddingBottom: 30
+    paddingBottom: 30,
+    fontFamily: "Luminari, fantasy"
   },
   exp: {
     marginLeft: 50,
@@ -26,10 +27,15 @@ const useStyles = makeStyles({
     backgroundColor: "#d9d9d9",
     backgroundImage: "linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%)",
     borderRadius: 20,
-    padding: 30
+    paddingLeft: 60,
+    paddingRight: 60,
+    paddingTop: 30,
+    paddingBottom: 30
   },
   date: {
-    marginBottom: 30
+    marginBottom: 30,
+    fontWeight: "bold",
+    fontFamily: "Luminari, fantasy"
   }
 });
 
